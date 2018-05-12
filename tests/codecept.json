@@ -4,10 +4,10 @@
   "output": "./output",
   "helpers": {
 	"REST": {
-		"endpoint": "http://localhost:8080"
+		"endpoint": "http://app:3000"
 	},
   	"Puppeteer": {
-      "url": "http://trivago.de",
+      "url": "http://app:3000",
       "show": false,
 	  "chrome": {
 	  	"args": ["--no-sandbox"]
